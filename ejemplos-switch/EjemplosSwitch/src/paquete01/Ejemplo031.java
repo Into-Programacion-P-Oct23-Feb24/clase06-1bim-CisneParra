@@ -38,7 +38,7 @@ public class Ejemplo031 {
         nombreCompleto = nombreCompleto.toLowerCase();
 
         // nombre = "atacames"
-        char valor = nombre.charAt(0); // obtener el primer caracter de una
+        char valor = nombreCompleto.charAt(0); // obtener el primer caracter de una
         // cadena
         //  L   o   j   a
         //  0   1   2   3
