@@ -14,7 +14,7 @@ import java.util.Scanner;
  */
 public class EjemploCadenas02 {
     public static void main(String[] args) {
-        Scanner entrada = new Scanner(System.in);
+        Scanner entrada = new Scanner(System.in); //permite ingresar datos por teclado
         entrada.useLocale(Locale.US);
         String cadenaFinal = "Datos Ingresados\n";
         
