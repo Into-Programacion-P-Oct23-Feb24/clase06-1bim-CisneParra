@@ -23,10 +23,10 @@ public class Ejemplo01 {
         System.out.println("Ingrese el nombre del día de la semana");
         String cadena = entrada.nextLine();
         
-        switch(cadena){
-            case "Lunes":
+        switch(cadena){ // compara las variables con la respuesta dada por teclado
+            case "Lunes": // en caso de: hacer tal cosa
                 System.out.printf("%s", cadena);
-                break;
+                break; // sentencia a forzar el detenimiento del switch
             
             case "Martes":
             case "martes":
